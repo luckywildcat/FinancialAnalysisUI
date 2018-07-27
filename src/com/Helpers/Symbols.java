@@ -1,0 +1,43 @@
+package com.Helpers;
+
+public class Symbols {
+	public static String[] syms = {
+			"AAPL",
+			"AMZN",
+			"BABA",
+			"BIDU",
+			"BLUE",
+			"BMY",
+			"BOX",
+			"CHK",
+			"CLF",
+			"CLVS",
+			"CMG",
+			//"CPRX",
+			"DDD",
+			"DIS",
+			"EBAY",
+			"ETSY",
+			"FCX",
+			"FIT",
+			"GOOG",
+			"GRPN",
+			"HDP",
+			"HLF",
+			"IONS",
+			"JUNO",
+			"LULU",
+			"MBLY",
+			"NFLX",
+			//"NWBO",
+			"PCLN",
+			"SALE",
+			"SBUX",
+			"SQ",
+			"SWKS",
+			"TSLA",
+			"TWTR",
+			"VRX",
+			"ZNGA"
+	};
+}
