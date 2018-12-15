@@ -9,7 +9,23 @@ public class OS implements Comparable{
 	String avg;
 	Double strike;
 	boolean isCall;
+	Integer buys;
+	Integer sells;
+	Integer spreadBuyLegs;
+	Integer spreadSellLegs;
 	
+	public Integer getSpreadBuyLegs() {
+		return spreadBuyLegs;
+	}
+	public void setSpreadBuyLegs(Integer spreadBuyLegs) {
+		this.spreadBuyLegs = spreadBuyLegs;
+	}
+	public Integer getSpreadSellLegs() {
+		return spreadSellLegs;
+	}
+	public void setSpreadSellLegs(Integer spreadSellLegs) {
+		this.spreadSellLegs = spreadSellLegs;
+	}
 	public String getSym() {
 		return sym;
 	}
@@ -64,6 +80,18 @@ public class OS implements Comparable{
 	}
 	public void setCall(boolean isCall) {
 		this.isCall = isCall;
+	}
+	public Integer getBuys() {
+		return buys;
+	}
+	public void setBuys(Integer buys) {
+		this.buys = buys;
+	}
+	public Integer getSells() {
+		return sells;
+	}
+	public void setSells(Integer sells) {
+		this.sells = sells;
 	}
 	
 }
